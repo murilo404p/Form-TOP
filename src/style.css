@@ -57,3 +57,15 @@ table {
   border-spacing: 0;
 }
 
+#logo {
+  background-color: rgba(0,0,0,0.5);
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url("./fonts/norse/Norse.otf");
+}
+
+#odin-name {
+  font-family: "Norse";
+}
