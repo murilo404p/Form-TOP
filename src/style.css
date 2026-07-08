@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-/* ===========================
-   CSS Reset Moderno
-=========================== */
-
 *,
 *::before,
 *::after {
@@ -43,8 +39,7 @@ select {
 
 button {
   cursor: pointer;
-  border: none;
-  background: none;
+
 }
 
 a {

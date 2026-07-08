@@ -9,7 +9,7 @@
   <body>
     <main>
       <section>
-        <img src="./src/assets/halie-west-25xggax4bSA-unsplash.jpg" alt="" class="w-[45%] h-auto object-cover z-50">
+        <img src="./src/assets/halie-west-25xggax4bSA-unsplash.jpg" alt="" class="w-[40%] h-sreen object-cover z-50">
         <div class="bg-gray-500 flex items-center">
           <img src="./src/assets/odin-lined.png" alt="">
           <p>ODIN</p>
@@ -22,9 +22,28 @@
         </p>
         <div>
           <h3>Let´s do this!</h3>
+          <form action="" method="get">
+            <label for="first_name">FIRST NAME: </label>
+            <input type="text" id="first_name" placeholder="Mark" name="first_name">
+
+            <label for="last_name">LAST NAME: </label>
+            <input type="text" id="last_name" placeholder="Grayson" name="last_name">
+
+            <label for="user_email">EMAIL ADDRESS: </label>
+            <input type="email" name="email" id="user_email" placeholder="you@example.com">
+
+            <label for="user_number">PHONE NUMBER: </label>
+            <input type="number" name="number" id="user_number">
+
+            <label for="user_password">PASSWORD: </label>
+            <input type="password" name="password" id="user_password">
+
+            <label for="confirm_password">CONFIRM PASSWORD: </label>
+            <input type="password" name="passwordConfirm" id="confirm_password">
+          </form>
         </div>
         <div>
-          <button class="bg-amber-300">Create Account</button>
+          <button type="submit">Create Account</button>
           <p>Already have an account? Log in</p>
         </div>
       </section>
