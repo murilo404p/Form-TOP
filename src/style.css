@@ -49,3 +49,13 @@
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+button {
+  background-color: #596D48;
+  padding: 15px;
+}
+
+#action {
+  padding: 40px 10px 0 30px;
+  
+}
