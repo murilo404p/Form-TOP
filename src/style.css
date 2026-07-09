@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -34,6 +35,7 @@
 #form-container {
   padding: 20px 0 30px 60px;
   font-family: "Poppins", sans-serif;
+  
 }
 
 #form {
